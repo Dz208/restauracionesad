@@ -1,0 +1,6 @@
+.p {
+    background-image: url('imagenes\fondocasitas.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Para ajustar la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+    background-attachment: fixed; /* Para que la imagen de fondo se mantenga fija mientras se desplaza la página */
+}
