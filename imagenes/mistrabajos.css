@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Ajusta el espacio entre las secciones */
+}
+
+.section {
+  text-align: center;
+  
+  padding: 10px; /* Añade relleno para separar el borde de la imagen */
+}
+
+.zoomable {
+  width: auto; /* Hace que la imagen ocupe el ancho completo de su contenedor */
+  height: 20rem; /* Permite que la altura se ajuste automáticamente según el ancho */
+  border: 1px solid #ddd; /* Añade un borde alrededor de cada imagen */
+  border-radius: 8px; /* Añade esquinas redondeadas al borde */
+}
+h1 {
+  text-align: center;
+}
+.section p {
+  
+  width: 100%;
+  font-style: italic;
+  text-align: center; /* Center-align the text within paragraphs */
+}
