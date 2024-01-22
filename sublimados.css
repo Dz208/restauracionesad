@@ -1,0 +1,10 @@
+
+.contenedor-video {
+    text-align: center;
+}
+
+video {
+    width: 60%; /* Modifica este valor según tus preferencias */
+    max-width: 80%; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto; /* Mantén la proporción original */
+}

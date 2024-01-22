@@ -6,18 +6,27 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-around; /* Para centrar los elementos en la línea */
-  width: 100%; /* Asegura que la línea ocupe todo el ancho de la página */
+  justify-content: space-around; /* Ajusta el espacio entre las secciones */
 }
 
 .section {
-  width: 20%; /* Cada sección ocupa el 20% del ancho de la página */
-  text-align: center; /* Centra el texto dentro de la sección */
+  text-align: center;
+  
+  padding: 10px; /* Añade relleno para separar el borde de la imagen */
 }
 
 .zoomable {
-  max-width: 100%; /* Ajusta la imagen al ancho de su contenedor (20%) */
-  height: auto; /* Mantiene la proporción de aspecto de la imagen */
-  display: block; /* Elimina el espacio extra debajo de las imágenes */
-  margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+  width: auto; /* Hace que la imagen ocupe el ancho completo de su contenedor */
+  height: 20rem; /* Permite que la altura se ajuste automáticamente según el ancho */
+  border: 1px solid #ddd; /* Añade un borde alrededor de cada imagen */
+  border-radius: 8px; /* Añade esquinas redondeadas al borde */
+}
+h1 {
+  text-align: center;
+}
+.section p {
+  
+  width: 100%;
+  font-style: italic;
+  text-align: center; /* Center-align the text within paragraphs */
 }
